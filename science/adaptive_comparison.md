@@ -107,7 +107,7 @@ Writing $`e_a`$ for the coordinate vectors gives the exact identity
 ```math
 C-C^0
 =-\sum_{a\lt b}C_{ab}(e_a-e_b)(e_a-e_b)^{\mathsf T}
-  -\operatorname{diag}(r).
+  -\mathrm{diag}(r).
 ```
 
 Two scalar bounds will be used. First,
@@ -149,7 +149,7 @@ Sum the subnormalized output operators over the corresponding sets of histories:
 ```math
 F=F_{ab}^{\mathrm{inactive}}+F_{ab}^{\mathrm{active}},
 \qquad
-p_{ab}(\varphi)=\operatorname{Tr}F_{ab}^{\mathrm{active}}(\varphi).
+p_{ab}(\varphi)=\mathrm{Tr}\,F_{ab}^{\mathrm{active}}(\varphi).
 ```
 
 Both summands are positive. Their definition uses a fixed subset of the policy tree, even though the probabilities of its histories depend on $`\varphi`$.
@@ -183,12 +183,12 @@ More explicitly, let $`\mathcal A_R`$ be one composed memory-only branch map and
 
 ```math
 \begin{aligned}
-\operatorname{Tr}\!
-\left[(\operatorname{id}_S\otimes\mathcal A_R)
+\mathrm{Tr}\!
+\left[(\mathrm{id}_S\otimes\mathcal A_R)
  \bigl((V_S\otimes I)\rho_{SR}(V_S^\dagger\otimes I)\bigr)\right]
 &=
-\operatorname{Tr}\!
-\left[(\operatorname{id}_S\otimes\mathcal A_R)(\rho_{SR})\right].
+\mathrm{Tr}\!
+\left[(\mathrm{id}_S\otimes\mathcal A_R)(\rho_{SR})\right].
 \end{aligned}
 ```
 

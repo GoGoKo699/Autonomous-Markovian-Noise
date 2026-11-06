@@ -28,7 +28,7 @@ c^*&1-a
 0\le a\le1,\qquad |c|^2\le a(1-a).
 ```
 
-The diagonal entries are the probabilities of the two basis outcomes. The complex number $`c`$, called a coherence, contributes to interference measurements; $`c^*`$ is its complex conjugate. A measurement event represented by a projector $`P`$ has probability $`\operatorname{Tr}(P\rho)`$.
+The diagonal entries are the probabilities of the two basis outcomes. The complex number $`c`$, called a coherence, contributes to interference measurements; $`c^*`$ is its complex conjugate. A measurement event represented by a projector $`P`$ has probability $`\mathrm{Tr}(P\rho)`$.
 
 The Pauli operator $`Z`$ preserves $`|0\rangle`$ and reverses the sign of $`|1\rangle`$. The Pauli operator $`X`$ interchanges them. For example,
 
@@ -79,7 +79,7 @@ A reduced channel can be obtained from a joint unitary:
 
 ```math
 \rho_{SR}(t)=
-\operatorname{Tr}_E
+\mathrm{Tr}_E
 \left[
 (U_t\otimes I_R)(\rho_{SR}\otimes\omega_E)
 (U_t^\dagger\otimes I_R)

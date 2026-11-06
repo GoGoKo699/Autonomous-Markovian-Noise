@@ -3,12 +3,6 @@
   "expressions": [
     {
       "path": "README.md",
-      "index": 10,
-      "source_sha256": "e410b8a76fd2bc419f47cb6abb905837403e74b2485fdb5393750114050b0906",
-      "expected_text": "Λ=‖B‖"
-    },
-    {
-      "path": "README.md",
       "index": 2,
       "source_sha256": "41b59aed69b839e1e51a57a5a4e8cfb0d5fe59fe1e6c1ae3ef85fba4f35e91f8",
       "required_text": [
@@ -18,12 +12,276 @@
     },
     {
       "path": "README.md",
+      "index": 10,
+      "source_sha256": "e410b8a76fd2bc419f47cb6abb905837403e74b2485fdb5393750114050b0906",
+      "expected_text": "Λ=‖B‖"
+    },
+    {
+      "path": "README.md",
       "index": 17,
       "source_sha256": "8b6d68e6000695876d93ece59ff2bc7f3008ad0869258a1266ec76a8b73bdbf4",
       "required_text": [
         "WE2+Λ>γ(N+1)4e",
         "N≥1"
       ]
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 8,
+      "source_sha256": "5583c38f34cc73635a507808b2061814a0cd37d747f9d6371d02c7d2875e36ad",
+      "expected_text": "Tr(Pρ)"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 28,
+      "source_sha256": "300694a015923cd787e140abc8876eec860414ac9ef56ac3496c84dcbffb9536",
+      "expected_text": "ρSR(t)=TrE[(Ut⊗IR)(ρSR⊗ωE)(Ut†⊗IR)],Ut=e−itH."
+    },
+    {
+      "path": "science/adaptive_comparison.md",
+      "index": 48,
+      "source_sha256": "7b35f1160937969f71680594f8c1324886d1e50c5aa7105963e7322bef53bf5f",
+      "expected_text": "C−C0=−∑a<bCab(ea−eb)(ea−eb)T−diag(r)."
+    },
+    {
+      "path": "science/adaptive_comparison.md",
+      "index": 63,
+      "source_sha256": "db20ff5978293cd858bb7093bea77b34a5cca5a2751228e6b9dd4de364bf1a24",
+      "expected_text": "F=Fabinactive+Fabactive,pab(φ)=TrFabactive(φ)."
+    },
+    {
+      "path": "science/adaptive_comparison.md",
+      "index": 81,
+      "source_sha256": "3f340412e242cc3ccf35c3d8e4a96db0e2f61e8be3f3ad96dc1094ce1dd96db6",
+      "expected_text": "Tr[(idS⊗AR)((VS⊗I)ρSR(VS†⊗I))]=Tr[(idS⊗AR)(ρSR)]."
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 1,
+      "source_sha256": "e10b99207b256f0f8119afd7398364332e7f07195e0a298a057dd978f639cc66",
+      "expected_text": "H=I⊗HE+Z⊗B,Λ=∥B∥,WE=λmax(HE)−λmin(HE)."
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 8,
+      "source_sha256": "75196b529ff0cde2ff0a26cd105f7ffdfe30276461bcf49bfe08a44148bf7283",
+      "expected_text": "Λ≥γN64ϵ,(1)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 9,
+      "source_sha256": "7bb2680e486fd1a5b64eb6c4bbf02eefd0d185fe1649f578541ca12548700bbb",
+      "expected_text": "WE2+Λ>γ(N+1)4e.(2)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 11,
+      "source_sha256": "580cf7ffe1dc637689ce9764bbeccb1a8e9fb4eea2ff3d3ef4b7e7e56d15abb1",
+      "expected_text": "N+1≥64e2C2⟹WE>γ(N+1)4e.(3)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 15,
+      "source_sha256": "a78029dade1fad841b6bcd323d00da1244a472471d934d1974e3feaa86d71613",
+      "expected_text": "q=γ2Λ―2∈(0,1],τ=q8γ,ℓ=min{N,⌊1/q⌋}.(4)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 27,
+      "source_sha256": "be437656ccf20175033f2b4f385245e31635696f240dc297bcaf0e55e37efb1b",
+      "expected_text": "pM(τ)=1+e−2γτ2=1+e−q/42≤1−q8+q264≤1−q16."
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 30,
+      "source_sha256": "98008a8570700da206dce6caa3edfdc7ca04cc7d6c489a4a517389709b72a69f",
+      "expected_text": "pD−pM≥3ℓq64(1−q/16)ℓ−1≥45ℓq1024≥164min{1,Nq},(5)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 45,
+      "source_sha256": "09c7001e9b41f19cfda64dd333ea27cb599d5b0daaab4badd4cc90a98d9f443c",
+      "expected_text": "tj=Tsin2(jπ2N+2),j=1,…,N.(6)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 46,
+      "source_sha256": "e5e270747a955f71716b3ca7c249a3641045eec55b5a52d74b86e7c9aab03ef3",
+      "expected_text": "min{1,ΔN+ΔN2},ΔN=∑j=N+1∞Tj[(J0+Jz)j−(J0−Jz)j]2j!,(7)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 59,
+      "source_sha256": "5c67eef8b6beaf4dc0b250a13326a2f8ff760467887514570115f3c5b483c2e8",
+      "expected_text": "ΔN+ΔN2≥d∗−ϵ.(8)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 65,
+      "source_sha256": "fcca88895285b143c1e6e1a3291be7d7f6cce8cbd2b9a0658875a6f0a5ca29b9",
+      "expected_text": "Rn(x)≤(ex/n)n1−1/(4e)<2⋅4−n.(9)"
+    },
+    {
+      "path": "science/dynamical_bounds.md",
+      "index": 73,
+      "source_sha256": "8d39bf9882401e6a53001c5757707a9ac3692e92dc3db180ea70f2ec56a574d9",
+      "expected_text": "N+1≥64e2C2⟹Λ≤γ(N+1)8e."
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 8,
+      "source_sha256": "6cec6ba89eaf52b330bbc24a9a2899e08a114c1535ab7c9dc5aadc6949540474",
+      "expected_text": "dN≤(2N+1)3γTm+Ek(γT),Ek(J):=∑n=k+1∞(2n−1)!!n!Jn/2.(1)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 11,
+      "source_sha256": "d94526ecfe27621e795480cc010e197f1dcfddb596ac14219807a8402830035f",
+      "expected_text": "Jm(θ)=|∑j=0m−1eijθ|4c0,c0=2m3+m3,Km(t)=γLJm(2πt/L).(2)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 16,
+      "source_sha256": "a561de25b5022ab6c5c0224c780d6df7b56d1790ed636e3d472ca906894be8fb",
+      "expected_text": "Km(t)=∑r=−(2m−2)2m−2are−iωrt,ar=γcrLc0,ωr=2πrL.(3)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 23,
+      "source_sha256": "054c3cdb530d1a442f29735e65914995218f41cf54dc8dde4e78ac78a1cc8814",
+      "expected_text": "μm=γL2π2∫0πθJm(θ)dθ≤3γL4π2[m∫0π/mθdθ+π4m3∫π/mπθ−3dθ]=3γL4m(1−12m2)≤3γTm.(4)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 24,
+      "source_sha256": "14e4157e897f41edb584dba02c5d70818d52ea195e25cb0b43fd55f4b609ff06",
+      "expected_text": "Km(0)=3γm3L(2m2+1)≤3γm2L,ωmax=4π(m−1)L=π(m−1)T.(5)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 26,
+      "source_sha256": "92f61747c3d4580b438685cdd0efa8556943ec08975149524cb853b18046ac5e",
+      "expected_text": "J≤γT.(6)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 27,
+      "source_sha256": "9ea69992072d23124f99ce7e667a40187e25909701640a6b879e9fafa8e33113",
+      "expected_text": "HE∞=∑rωrbr†br,B∞=∑rgr(br+br†),gr=ar.(7)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 36,
+      "source_sha256": "c723084e327a52c9990b59d46d72401e33ff55e6f952bd4de41a8f9562bec177",
+      "expected_text": "∥H∞Pr∥≤Ωr+∥g∥(r+r+1)≤C(r+1),C:=Ω+2∥g∥."
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 38,
+      "source_sha256": "e6287175cbcc76c89960853dfa7b86a0c96137518b6053af2bbdaeac621962e5",
+      "expected_text": "∥(H∞)pψ∥≤Cp(r+p)!r!∥ψ∥,∑p=0∞|t|pp!∥(H∞)pψ∥≤∥ψ∥(1−C|t|)r+1(C|t|<1)."
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 42,
+      "source_sha256": "3c2f8c505eea61052b7f8c1b12e71c0f32fd9ae17b82876c219135e813b8b96d",
+      "expected_text": "ωrbr†br+σgr(br+br†)=D(σgr/ωr)†ωrbr†brD(σgr/ωr)−gr2ωr,"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 44,
+      "source_sha256": "fcd588354d766647ed5aa111d9fe286b0a1ff409e5e224fd4997ccabd2b48273",
+      "expected_text": "B(t)=∑rgr(bre−iωrt+br†eiωrt),⟨0|B(t)B(s)|0⟩=Km(t−s).(8)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 48,
+      "source_sha256": "22541101fd338ebc3fb6143f0b2561a399bdbe21f5b6fe3eeaea89660ad19f1f",
+      "expected_text": "B(t)=g0X0+2∑r=12m−2gr[Xrcos⁡(ωrt)+Yrsin⁡(ωrt)].(9)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 52,
+      "source_sha256": "c4417add4f8b960a6efb70afb54159ddc126eb7c1a31aacf48062942a0444cf0",
+      "expected_text": "A(t)⊗B(t),A(t)=Vc(t)†(Z⊗I)Vc(t),∥A(t)∥=1.(10)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 62,
+      "source_sha256": "47bb9149a69b30bd2187c396970d79f25cb0eb21253a7286061566139dc9aeb9",
+      "expected_text": "H(k)=I⊗HE(k)+Z⊗B(k),HE(k)=PkHE∞Pk,B(k)=PkB∞Pk,(11)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 76,
+      "source_sha256": "ec3feb4d19120e9be3c69f1dcca283379101b13bcc227121f861cc096b0c43cb",
+      "expected_text": "0≤⟨wk(s),wk(t)⟩≤⟨v(s),v(t)⟩=⟨0|B(s1)⋯B(sn)B(tn)⋯B(t1)|0⟩.(12)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 80,
+      "source_sha256": "e5df3e0671c1314b5dec2b583ec557b1e754fb8885ea51c195751739c5e788f8",
+      "expected_text": "∥Wn∥2≤∫Δnds∫Δndt⟨v(s),v(t)⟩,Δn={0<t1<⋯<tn<T}."
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 85,
+      "source_sha256": "2869028b697db5a7ce4fbadc069ddc66f9ecc8677874d42e66a694e555c5e0b6",
+      "expected_text": "Wn=0(n≤k),∥Wn∥≤an(J):=(2n−1)!!n!Jn/2(n>k).(13)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 88,
+      "source_sha256": "989113684ab2d8f18283fc2821aacfa08acf9c724220053ca109a5b3d8192588",
+      "expected_text": "12∥ρreference−ρfinite∥1≤Ek(J)≤Ek(γT).(14)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 89,
+      "source_sha256": "46aa3d6cf27f0804e67c8eb6b00d7afcee2cf0da24df31cbf54b547e53f8abf1",
+      "expected_text": "Ek(J)≤ak+1(J)1−rk(J),rk(J):=(2k+3)Jk+2<1.(15)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 93,
+      "source_sha256": "7e5d2036f2b17a9da809cde356ce683d9a84b15870334b63f874253121b03230",
+      "expected_text": "m=max{2,⌈6(2N+1)ϵ⌉}.(16)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 108,
+      "source_sha256": "45a1f53c0918f734e099554b35485b447a94c9d0c7b4d1d4a669a63488621fa4",
+      "expected_text": "D=(4m−3+kk),Λ=∥B(k)∥≤2k∥g∥=2kKm(0)≤3kγm2T,WE=2kωmax=2πk(m−1)T.(17)"
+    },
+    {
+      "path": "science/finite_bath.md",
+      "index": 111,
+      "source_sha256": "10460e538c99e2536c41fe78893261b2f1712ae0382bfb350692c3ccfbbc299e",
+      "expected_text": "log2⁡D=Oϵ(log⁡(N+2)),Λ=Oϵ(γN+1),WE=Oϵ(γ(N+1))."
+    },
+    {
+      "path": "science/memory_bound.md",
+      "index": 7,
+      "source_sha256": "a57631673ad86061e42f9016a4e73bb7ee204d02ee9c4ebb9a0b89a30705fce0",
+      "expected_text": "r=rankηE≤D."
+    },
+    {
+      "path": "science/memory_bound.md",
+      "index": 51,
+      "source_sha256": "f820dcea53e770dbe7ad0cfc88e5cb53719a0d5c9c5afef8910a18270ba73a03",
+      "expected_text": "rankρD≤Dr≤D2."
+    },
+    {
+      "path": "science/memory_bound.md",
+      "index": 66,
+      "source_sha256": "f99488841d5cb7261017db8ac399167cf83f260b7526680643b7b80167bc139b",
+      "expected_text": "Tr(Pσn)≤λ0+(R−1)λ1≤λ0+(Dr−1)λ1."
+    },
+    {
+      "path": "science/memory_bound.md",
+      "index": 69,
+      "source_sha256": "45fa8589c6b6072596599b367ceaae9b471c9c98cb3dcd39792914b60cd921ad",
+      "expected_text": "TrP=R"
     },
     {
       "path": "science/resource_theorem.md",
