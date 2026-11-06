@@ -1,0 +1,107 @@
+{
+  "scope": "Three fixed contact times; coherent reference and recorded noncommuting measurement/feedback. Exact Gaussian path sum; no Monte Carlo.",
+  "gamma": 0.8,
+  "times": [
+    0.0,
+    0.13,
+    0.39,
+    0.74,
+    1.0
+  ],
+  "jackson_period": 4.0,
+  "integrated_covariance": 0.44317084074161067,
+  "covariance_checks": [
+    {
+      "m": 2,
+      "modes": 5,
+      "covariance_l1": 0.9555133781898439,
+      "process_distance": 0.26286830270162503,
+      "first_moment_bound": 2.9415702650082043,
+      "m_scaled_moment": 0.22981017695376596
+    },
+    {
+      "m": 4,
+      "modes": 13,
+      "covariance_l1": 0.8404381804682783,
+      "process_distance": 0.1499423290066411,
+      "first_moment_bound": 1.4030930374421569,
+      "m_scaled_moment": 0.219233287100337
+    },
+    {
+      "m": 8,
+      "modes": 29,
+      "covariance_l1": 0.5445591388522014,
+      "process_distance": 0.06926387129781705,
+      "first_moment_bound": 0.6838663495924026,
+      "m_scaled_moment": 0.21370823424762578
+    },
+    {
+      "m": 16,
+      "modes": 61,
+      "covariance_l1": 0.2911679097478247,
+      "process_distance": 0.03212073684083101,
+      "first_moment_bound": 0.3386505140407996,
+      "m_scaled_moment": 0.21165657127549975
+    },
+    {
+      "m": 32,
+      "modes": 125,
+      "covariance_l1": 0.14698159297396635,
+      "process_distance": 0.015575948697974748,
+      "first_moment_bound": 0.16878767483280793,
+      "m_scaled_moment": 0.2109845935410099
+    },
+    {
+      "m": 64,
+      "modes": 253,
+      "covariance_l1": 0.07368662077817073,
+      "process_distance": 0.007670809035735571,
+      "first_moment_bound": 0.08431105870484079,
+      "m_scaled_moment": 0.21077764676210198
+    }
+  ],
+  "truncation_checks": [
+    {
+      "cutoff": 1,
+      "bath_dimension": 6,
+      "distance_to_exact_gaussian": 0.03838398116197679,
+      "dyson_tail_bound": 0.7100768933474747,
+      "trace": 0.9999999999999999
+    },
+    {
+      "cutoff": 2,
+      "bath_dimension": 21,
+      "distance_to_exact_gaussian": 0.006125610810531978,
+      "dyson_tail_bound": 0.3262796870487318,
+      "trace": 0.9999999999999994
+    },
+    {
+      "cutoff": 3,
+      "bath_dimension": 56,
+      "distance_to_exact_gaussian": 0.0007391737397420461,
+      "dyson_tail_bound": 0.13584276861287964,
+      "trace": 1.0000000000000004
+    },
+    {
+      "cutoff": 4,
+      "bath_dimension": 126,
+      "distance_to_exact_gaussian": 7.093213767770076e-05,
+      "dyson_tail_bound": 0.05198838658829723,
+      "trace": 0.9999999999999999
+    },
+    {
+      "cutoff": 5,
+      "bath_dimension": 252,
+      "distance_to_exact_gaussian": 5.601374004238174e-06,
+      "dyson_tail_bound": 0.018494727020431766,
+      "trace": 0.9999999999999993
+    },
+    {
+      "cutoff": 6,
+      "bath_dimension": 462,
+      "distance_to_exact_gaussian": 3.7636870539279405e-07,
+      "dyson_tail_bound": 0.00616954667481533,
+      "trace": 0.9999999999999999
+    }
+  ]
+}

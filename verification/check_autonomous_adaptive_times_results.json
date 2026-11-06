@@ -1,0 +1,74 @@
+{
+  "scope": "One Y-measurement followed by outcome-dependent contact times; three contacts per branch, protected reference, all outcomes retained, no postselection.",
+  "branch_times": [
+    [
+      0.0,
+      0.12,
+      0.28,
+      0.76,
+      1.0
+    ],
+    [
+      0.0,
+      0.12,
+      0.47,
+      0.89,
+      1.0
+    ]
+  ],
+  "covariance_checks": [
+    {
+      "jackson_m": 2,
+      "adaptive_output_distance": 0.16822029162152208,
+      "activity_bound": 2.573873981882179
+    },
+    {
+      "jackson_m": 4,
+      "adaptive_output_distance": 0.11870293903914426,
+      "activity_bound": 1.2277064077618873
+    },
+    {
+      "jackson_m": 8,
+      "adaptive_output_distance": 0.07716027122387946,
+      "activity_bound": 0.5983830558933523
+    },
+    {
+      "jackson_m": 16,
+      "adaptive_output_distance": 0.04268614964070422,
+      "activity_bound": 0.29631919978569965
+    },
+    {
+      "jackson_m": 32,
+      "adaptive_output_distance": 0.020973073322314222,
+      "activity_bound": 0.14768921547870695
+    },
+    {
+      "jackson_m": 64,
+      "adaptive_output_distance": 0.010347715716911473,
+      "activity_bound": 0.07377217636673569
+    }
+  ],
+  "truncation_checks": [
+    {
+      "cutoff": 2,
+      "bath_dimension": 21,
+      "adaptive_output_distance": 0.007683830401855243,
+      "uniform_dyson_bound": 1.0117047006291289,
+      "trace": 0.9999999999999996
+    },
+    {
+      "cutoff": 4,
+      "bath_dimension": 126,
+      "adaptive_output_distance": 7.937644420434557e-05,
+      "uniform_dyson_bound": 0.27657246485183856,
+      "trace": 1.0000000000000002
+    },
+    {
+      "cutoff": 6,
+      "bath_dimension": 462,
+      "adaptive_output_distance": 3.968199702728283e-07,
+      "uniform_dyson_bound": 0.057428088616595,
+      "trace": 0.9999999999999994
+    }
+  ]
+}

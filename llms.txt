@@ -1,0 +1,21 @@
+# Autonomous Markovian Noise
+
+Finite autonomous realization of qubit dephasing under adaptive interventions.
+
+## Main routes
+
+- Overview and result table: README.md
+- Exact target, tester class, operational closure and resources: science/model.md
+- Joint upper bound, lower bounds and parameter choices: science/resource_theorem.md
+- Physical explanation and limits: science/interpretation.md
+- Feedback-dependent timing comparison: science/adaptive_comparison.md
+- Positive Jackson covariance, Gaussian reference and finite occupation Hamiltonian: science/finite_bath.md
+- Closed-bath dimension converse: science/memory_bound.md
+- Inherited interaction obstruction and UDD spectral bound: science/dynamical_bounds.md
+- Prior results and comparison scope: references/RELATED_WORK.md
+- Structured citations: references/references.bib
+- Reproducible finite checks: verification/README.md
+
+## Essential distinctions
+
+The asymptotic theorem fixes small accuracy and gamma T=1 while N grows. The upper memory, interaction and bandwidth bounds hold for the same autonomous finite device. The bandwidth lower bound is W_E/2+Lambda=Omega(gamma N); a separate linear W_E bound follows at square-root interaction strength. The interaction class is I tensor H_E+Z tensor B. Encoded bath memory is not local hardware or synthesis cost. The engineered stationary bath is nonthermal and nonpassive. Timing is classically adaptive. Operational closure is applied to the final target-versus-finite-device event inequality. Finite numerical checks do not prove the universal theorem.
