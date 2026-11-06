@@ -29,7 +29,7 @@ jobs:
           mkdir -p "$RUNNER_TEMP/render-deps"
           cp verification/rendering/package.json verification/rendering/package-lock.json "$RUNNER_TEMP/render-deps/"
           npm ci --prefix "$RUNNER_TEMP/render-deps" --ignore-scripts --no-audit --no-fund
-          "$RUNNER_TEMP/render-deps/node_modules/.bin/playwright" install --with-deps chromium
+          "$RUNNER_TEMP/render-deps/node_modules/.bin/playwright" install chromium
       - name: Compare the actual GitHub rendering with the source
         run: |
           NODE_PATH="$RUNNER_TEMP/render-deps/node_modules" node verification/rendering/capture_hosted_math.cjs \
