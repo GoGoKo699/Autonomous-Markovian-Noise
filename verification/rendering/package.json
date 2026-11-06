@@ -1,0 +1,10 @@
+{
+  "name": "autonomous-markovian-noise-rendering",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Read-only comparison of commit-pinned GitHub mathematics",
+  "dependencies": {
+    "playwright": "1.56.1",
+    "mathjax-full": "3.2.1"
+  }
+}

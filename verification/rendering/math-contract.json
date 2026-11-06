@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 10,
+      "source_sha256": "e410b8a76fd2bc419f47cb6abb905837403e74b2485fdb5393750114050b0906",
+      "expected_text": "Λ=‖B‖"
+    },
+    {
+      "path": "README.md",
+      "index": 2,
+      "source_sha256": "41b59aed69b839e1e51a57a5a4e8cfb0d5fe59fe1e6c1ae3ef85fba4f35e91f8",
+      "required_text": [
+        "γ(ZρZ−ρ)",
+        "T=γ−1"
+      ]
+    },
+    {
+      "path": "README.md",
+      "index": 17,
+      "source_sha256": "8b6d68e6000695876d93ece59ff2bc7f3008ad0869258a1266ec76a8b73bdbf4",
+      "required_text": [
+        "WE2+Λ>γ(N+1)4e",
+        "N≥1"
+      ]
+    },
+    {
+      "path": "science/resource_theorem.md",
+      "index": 7,
+      "source_sha256": "0fa8a341c4c74c49019fd2405fd597659ef0a910bd1a9c6f5114df1d06c40bac",
+      "required_text": [
+        "Q=Oϵ(log(N+2))",
+        "Λ=Oϵ(γN)",
+        "WE=Oϵ(γN)"
+      ]
+    },
+    {
+      "path": "science/resource_theorem.md",
+      "index": 10,
+      "source_sha256": "0a9f132b1479cbd972a2c9322b469e0749e1a3dd445ea20e9bac5abb20b21a48",
+      "required_text": [
+        "WE2+Λ>γ(N+1)4e"
+      ]
+    },
+    {
+      "path": "science/resource_theorem.md",
+      "index": 20,
+      "source_sha256": "0aa8419da0c73b4262ee18f335d2686ea86536c596696ff36320515a7e110343",
+      "required_text": [
+        "D=",
+        "Λ≤γ",
+        "WE≤2πkγ(m−1)"
+      ]
+    }
+  ]
+}

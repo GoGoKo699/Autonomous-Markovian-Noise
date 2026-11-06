@@ -32,7 +32,7 @@ d_N=\sup_{\mathsf T}
       -p_{\mathrm M}^{\mathsf T}\right|
 ```
 
-for its worst-case operational error against the target under the tester class in the [model](model.md). Equivalently, this is the supremum of final half trace distance, since the tester's final measurement is unrestricted.
+for its worst-case operational error against the target under the tester class in the [model](model.md). On finite testers the event-probability distance equals the final half trace distance, since the final measurement is unrestricted. The witness below is finite, so its lower bound also applies to the operational closure.
 
 Set
 

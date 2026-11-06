@@ -23,7 +23,7 @@ For every fixed accuracy $`0\lt\epsilon\lt1/64`$ and each $`N\ge1`$, a device ch
 | Resource | Achievable order | Necessary order and scope |
 |---|---|---|
 | Encoded bath qubits, $`\lceil\log_2 D\rceil`$ | $`O_\epsilon(\log(N+2))`$ | $`\Omega(\log(N+2))`$, including initially mixed closed baths |
-| Interaction strength, $`\Lambda=\|B\|`$ | $`O_\epsilon(\gamma\sqrt N)`$ | $`\Omega_\epsilon(\gamma\sqrt N)`$; inherited from the intervention-resolution bound |
+| Interaction strength, $`\Lambda=\lVert B\rVert`$ | $`O_\epsilon(\gamma\sqrt N)`$ | $`\Omega_\epsilon(\gamma\sqrt N)`$; inherited from the intervention-resolution bound |
 | Bath spectral diameter, $`W_E`$ | $`O_\epsilon(\gamma N)`$ | $`\Omega(\gamma N)`$ when $`\Lambda=O_\epsilon(\gamma\sqrt N)`$, in the displayed pure-dephasing interaction class |
 
 The unrestricted spectral obstruction proved here is the sum bound
@@ -57,6 +57,12 @@ The strength lower bound is an established result of [Markovian Resolution Limit
 | How can the finite calculations be reproduced? | [Verification](verification/README.md) |
 
 The [reading guide](llms.txt) maps these routes to the authoritative statements.
+
+## Learn the project
+
+The educational anchor is Ángel Rivas and Susana F. Huelga, [*Open Quantum Systems: An Introduction*](https://link.springer.com/book/10.1007/978-3-642-23354-8), first edition (2012). Chapters 3–5 supply the foundations in dynamical maps, Markovian generators and microscopic open-system models.
+
+Start with the [source-to-project bridge](learning/bridge.md), which explains how those foundations lead to intervention-based testing and the three resource costs. The [30-milestone map](learning/milestones.md) connects the necessary background to the construction, lower bounds and physical interpretation. It is a map of the project's ideas; the topic pages above remain the authoritative homes of the statements and proofs.
 
 ## Reproduce the finite checks
 
