@@ -16,6 +16,12 @@ Finite autonomous realization of qubit dephasing under adaptive interventions.
 - Structured citations: references/references.bib
 - Reproducible finite checks: verification/README.md
 
+## Study route
+
+The single educational anchor is Ángel Rivas and Susana F. Huelga, Open Quantum Systems: An Introduction, first edition (2012), Springer, DOI 10.1007/978-3-642-23354-8. Chapters 3–5 introduce dynamical maps, Markov generators and microscopic models. The project-specific bridge is learning/bridge.md; the complete shared map is learning/milestones.md, with exactly M01–M30 across background/preliminaries and narrative/innovation. These are common scientific resources, independent of any learner's progress.
+
+For the physical story, read learning/bridge.md, science/model.md and science/interpretation.md. For precise quantifiers, begin at science/resource_theorem.md and follow its proof links. For the two approximation mechanisms, read science/adaptive_comparison.md and science/finite_bath.md. For necessity, read science/memory_bound.md and science/dynamical_bounds.md. For reproducibility, use verification/README.md. Textbook foundations do not substitute for the locally supplied arguments or imported research-level bounds identified in references/RELATED_WORK.md.
+
 ## Essential distinctions
 
 The asymptotic theorem fixes small accuracy and gamma T=1 while N grows. The upper memory, interaction and bandwidth bounds hold for the same autonomous finite device. The bandwidth lower bound is W_E/2+Lambda=Omega(gamma N); a separate linear W_E bound follows at square-root interaction strength. The interaction class is I tensor H_E+Z tensor B. Encoded bath memory is not local hardware or synthesis cost. The engineered stationary bath is nonthermal and nonpassive. Timing is classically adaptive. Operational closure is applied to the final target-versus-finite-device event inequality. Finite numerical checks do not prove the universal theorem.

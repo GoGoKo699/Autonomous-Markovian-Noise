@@ -51,3 +51,7 @@ For $`m=2,4,8,16,32,64`$, the scripts compare colored and white Gaussian outputs
 For the five-mode kernel $`m=2`$, cutoff values up to six are checked against the Dyson-tail estimate. The fixed-time calculation uses its integrated covariance $`J`$; the adaptive example uses the common upper bound $`J\le\gamma T`$. The 300-term positive numerical tail sum is adequate at these parameters; it is a floating-point evaluation of the analytic tail, not an interval-arithmetic proof certificate. The general convergent tail and geometric remainder certificate are established in [the construction](../science/finite_bath.md).
 
 The committed outputs are [fixed-time results](check_autonomous_bath_results.json) and [adaptive-time results](check_autonomous_adaptive_times_results.json). The strict trace and error margins are much larger than the stated numerical tolerances. Exact memory-rank and dynamical-decoupling converses are analytical and are not replaced by these finite examples.
+
+## Hosted mathematical display
+
+The [rendering check](rendering/README.md) independently compares the actual GitHub equations with the exact committed source at wide and narrow viewports. The pull-request workflow retains its report and screenshots for visual review. This checks mathematical presentation; it does not substitute for the scientific calculations or proofs above.

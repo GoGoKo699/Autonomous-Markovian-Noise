@@ -19,7 +19,7 @@ T=\frac1\gamma,
 and let $`N\ge0`$ be the number of allowed interior system contacts. A microscopic device has a bath $`E`$ of dimension $`D`$, initially in an input-independent state $`\eta_E`$ of rank
 
 ```math
-r=\operatorname{rank}\eta_E\le D.
+r=\mathrm{rank}\,\eta_E\le D.
 ```
 
 All bath degrees of freedom used during the run belong to $`E`$. The joint system-bath evolution is unitary between tester contacts; there are no supplied bath resets, discards, or additional environmental systems.
@@ -32,7 +32,7 @@ d_N=\sup_{\mathsf T}
       -p_{\mathrm M}^{\mathsf T}\right|
 ```
 
-for its worst-case operational error against the target under the tester class in the [model](model.md). Equivalently, this is the supremum of final half trace distance, since the tester's final measurement is unrestricted.
+for its worst-case operational error against the target under the tester class in the [model](model.md). On finite testers the event-probability distance equals the final half trace distance, since the final measurement is unrestricted. The witness below is finite, so its lower bound also applies to the operational closure.
 
 Set
 
@@ -153,7 +153,7 @@ w_\alpha|\Psi_\alpha\rangle\langle\Psi_\alpha|,
 For each $`\alpha`$, tracing a bath of dimension $`D`$ leaves a tester state of rank at most $`D`$, by the Schmidt decomposition. The rank of a sum of positive operators is at most the sum of their ranks. Hence the final accessible state $`\rho_D`$ obeys
 
 ```math
-\operatorname{rank}\rho_D\le Dr\le D^2.
+\mathrm{rank}\,\rho_D\le Dr\le D^2.
 ```
 
 Equivalently, one can purify $`\eta_E`$ with an analytical reference of dimension $`r`$, leave that reference untouched, and trace a total inaccessible space of dimension $`Dr`$ at the end. This purification is a proof device; it does not assume that a mixed bath was physically prepared together with an extra resource accessible to the tester.
@@ -186,7 +186,7 @@ and every other eigenvalue is at most
 Let $`P`$ be the support projector of $`\rho_D`$, of rank $`R\le Dr`$. The binary measurement $`\{P,I-P\}`$ finds the microscopic output in $`P`$ with probability one. For the target,
 
 ```math
-\operatorname{Tr}(P\sigma_n)
+\mathrm{Tr}(P\sigma_n)
 \le\lambda_0+(R-1)\lambda_1
 \le\lambda_0+(Dr-1)\lambda_1.
 ```
@@ -200,7 +200,7 @@ For example, this follows directly from
 (\lambda_0-\lambda_1)|\Omega_n\rangle\langle\Omega_n|,
 ```
 
-and taking the trace against $`P`$ uses $`\operatorname{Tr}P=R`$ and a rank-one overlap at most one.
+and taking the trace against $`P`$ uses $`\mathrm{Tr}\,P=R`$ and a rank-one overlap at most one.
 
 The difference of the probabilities of outcome $`I-P`$ is therefore at least
 
